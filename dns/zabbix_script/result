@@ -1,0 +1,12 @@
+cbnoc-dns total.num.queries 9
+cbnoc-dns total.num.queries_ip_ratelimited 0
+cbnoc-dns total.num.cachehits 7
+cbnoc-dns total.num.cachemiss 2
+cbnoc-dns total.num.prefetch 1
+cbnoc-dns total.num.zero_ttl 0
+cbnoc-dns total.num.recursivereplies 2
+cbnoc-dns mem.cache.rrset 117769924
+cbnoc-dns mem.cache.message 118848958
+cbnoc-dns num.query.type.A 2
+cbnoc-dns num.query.type.PTR 6
+cbnoc-dns num.query.type.AAAA 1

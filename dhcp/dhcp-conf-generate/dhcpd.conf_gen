@@ -1,0 +1,84 @@
+
+# mgmt
+subnet 10.1.1.0 netmask 255.255.255.0 {
+    range 10.1.1.100 10.1.1.191;
+    option routers 10.1.1.1;
+    option domain-name-servers 10.1.1.21;
+} 
+
+# chicken
+subnet 10.1.8.0 netmask 255.255.248.0 {
+    range 10.1.8.30 10.1.15.254;
+    option routers 10.1.8.1;
+    option domain-name-servers 10.1.8.21;
+} 
+
+# private2
+subnet 10.1.16.0 netmask 255.255.255.0 {
+    range 10.1.16.30 10.1.16.254;
+    option routers 10.1.16.1;
+    option domain-name-servers 10.1.16.21;
+} 
+
+# user
+subnet 202.1.208.0 netmask 255.255.240.0 {
+    range 202.1.208.30 202.1.223.254;
+    option routers 202.1.208.1;
+    option domain-name-servers 202.1.208.21;
+} 
+
+# unsecure
+subnet 202.236.88.0 netmask 255.255.255.0 {
+    range 202.236.88.30 202.236.88.254;
+    option routers 202.236.88.1;
+    option domain-name-servers 202.236.88.21;
+} 
+
+# reserve2
+subnet 202.236.89.0 netmask 255.255.255.0 {
+    range 202.236.89.30 202.236.89.254;
+    option routers 202.236.89.1;
+    option domain-name-servers 202.236.89.21;
+} 
+
+# reserve3
+subnet 202.236.90.0 netmask 255.255.255.0 {
+    range 202.236.90.30 202.236.90.254;
+    option routers 202.236.90.1;
+    option domain-name-servers 202.236.90.21;
+} 
+
+# reserve4
+subnet 202.236.91.0 netmask 255.255.255.0 {
+    range 202.236.91.30 202.236.91.254;
+    option routers 202.236.91.1;
+    option domain-name-servers 202.236.91.21;
+} 
+
+# reserve5
+subnet 202.236.92.0 netmask 255.255.255.0 {
+    range 202.236.92.30 202.236.92.254;
+    option routers 202.236.92.1;
+    option domain-name-servers 202.236.92.21;
+} 
+
+# reserve6
+subnet 202.236.93.0 netmask 255.255.255.0 {
+    range 202.236.93.30 202.236.93.254;
+    option routers 202.236.93.1;
+    option domain-name-servers 202.236.93.21;
+} 
+
+# reserve7
+subnet 202.236.94.0 netmask 255.255.255.0 {
+    range 202.236.94.30 202.236.94.254;
+    option routers 202.236.94.1;
+    option domain-name-servers 202.236.94.21;
+} 
+
+# reserve8
+subnet 202.236.95.0 netmask 255.255.255.0 {
+    range 202.236.95.30 202.236.95.254;
+    option routers 202.236.95.1;
+    option domain-name-servers 202.236.95.21;
+} 

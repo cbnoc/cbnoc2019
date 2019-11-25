@@ -1,0 +1,45 @@
+10.1.1.1	rtDC
+10.1.1.2	rtGlobal
+10.1.1.3	rtTunDC1
+10.1.1.4	rtTunDC2
+10.1.1.5	rtTunSite1
+10.1.1.6	rtTunSite2
+10.1.1.7	
+10.1.1.8	fortigate
+10.1.1.9	swDC
+
+10.1.1.10	
+10.1.1.11	cbnoc-vmc1
+10.1.1.12	cbnoc-vmc2
+10.1.1.13	
+10.1.1.14	
+10.1.1.16	
+10.1.1.17	consolesrv
+10.1.1.18	esxi
+10.1.1.19	
+
+10.1.1.20	cbnoc-dhcp	dhcp
+10.1.1.21	cbnoc-dns	dns
+10.1.1.22	cbnoc-dns2	dns2
+10.1.1.23	cbnoc-syslog	syslog
+10.1.1.24	cbnoc-zabbix	zabbix
+10.1.1.25	cbnoc-fingerprint	fingerprint
+10.1.1.26	cbnoc-wallofsheep	wallofsheep
+10.1.1.27	cbnoc-snort2	snort2
+10.1.1.28	cbnoc-elasticsearch1	elasticsearch1	es1
+10.1.1.29	cbnoc-elasticsearch2	elasticsearch2	es2
+10.1.1.30	cbnoc-elasticsearch3	elasticsearch3	es3
+10.1.1.31	cbnoc-tpot1	tpot1
+10.1.1.32	cbnoc-cms1	cms1
+10.1.1.33	cbnoc-cms2	cms2
+10.1.1.34	cbnoc-cms3	cms3
+10.1.1.35	cbnoc-freewifi	freewifi
+10.1.1.36	cbnoc-vizceral	vizceral
+10.1.1.37	cbnoc-ntop	ntop
+10.1.1.38	cbnoc-Flowmon	Flowmon
+10.1.1.39	cbnoc-dns-mgmt	dns-mgmt
+10.1.1.40	cbnoc-patlite-api	patlite-api  
+10.1.1.41	cbnoc-patlite	patlite
+10.1.1.42	cbnoc-elasticsearch4	elasticsearch4	es4	logstash
+10.1.1.43	cbnoc-elasticsearch5	elasticsearch5	es5	kibana
+10.1.1.44	cbnoc-Flowmon-probe
