@@ -1,0 +1,5 @@
+このマシンには以下の役割がある．
+
+- Elasticsearch master-eligible ノード
+
+master-eligible ノードは3台から構成されているが，Configは共通のためelasticsearch1のみバックアップした．

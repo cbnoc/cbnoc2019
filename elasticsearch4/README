@@ -1,0 +1,5 @@
+このノードには以下の役割がある．
+
+- Elasticsearch coordinator-only node
+- Logstash
+
