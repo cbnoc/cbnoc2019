@@ -1,0 +1,2 @@
+DHCPLOG DHCPACK%{SPACE}on%{SPACE}%{IP:ip_addr_dhcp}%{SPACE}to%{SPACE}%{MAC:macaddr_dhcp}%{SPACE}%{MYDHCPHOST}%{SPACE}%{GREEDYDATA}
+MYDHCPHOST (\(%{HOSTNAME:clienthost_dhcp}\))?

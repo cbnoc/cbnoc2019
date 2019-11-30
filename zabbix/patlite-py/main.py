@@ -1,0 +1,20 @@
+import patlite
+
+def main():
+    p = patlite.Patlite.get_instance()
+    p.set_dest('10.1.1.41', 10000)
+
+    p.set_status("red", p.ON)
+    p.set_status("yellow", p.BLINK1)
+    p.set_status("green", p.BLINK2)
+    # p.set_status("buzzer", p.OFF)
+    p.commit()
+    
+    ''' Reset
+    p.reset_status()
+    p.commit()
+    '''
+
+
+if __name__ == '__main__':
+    main()
