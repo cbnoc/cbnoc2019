@@ -1,0 +1,4 @@
+MYPROG (%{MYPROGNAME:prog_name}(\[%{MYPROGID:prog_id}\])?:)?
+MYPROGNAME \w+
+MYPROGID [0-9]+
+MYSYSLOG time=%{TIMESTAMP_ISO8601:timstamp}%{SPACE}fromhost-ip=%{IP:ipaddr}%{SPACE}hostname=%{HOSTNAME:hostname}%{SPACE}pri=%{WORD:facility}.%{WORD:level}<%{POSINT:level_num}>%{SPACE}tag=%{SPACE}%{MYPROG}%{SPACE}msg=%{SPACE}%{MYPROG}%{SPACE}%{GREEDYDATA:body}
