@@ -1,0 +1,747 @@
+{
+    "connections": [
+        {
+            "metrics": {
+                "danger": 0, 
+                "normal": 222
+            }, 
+            "source": "CODEBLUE network", 
+            "class": "normal", 
+            "target": "INTERNET", 
+            "notices": []
+        }
+    ], 
+    "nodes": [
+        {
+            "displayName": "INTERNET", 
+            "name": "INTERNET", 
+            "connections": [], 
+            "renderer": "region", 
+            "nodes": [], 
+            "class": "normal", 
+            "metadata": {}
+        }, 
+        {
+            "connections": [
+                {
+                    "metrics": {
+                        "normal": 1320637
+                    }, 
+                    "source": "10.1.1.29", 
+                    "class": "normal", 
+                    "target": "10.1.1.28", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 2117
+                    }, 
+                    "source": "10.1.1.20", 
+                    "class": "normal", 
+                    "target": "10.1.1.22", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 7661
+                    }, 
+                    "source": "10.1.1.28", 
+                    "class": "normal", 
+                    "target": "10.1.1.178", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 4354
+                    }, 
+                    "source": "10.1.1.36", 
+                    "class": "normal", 
+                    "target": "10.1.1.195", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 170
+                    }, 
+                    "source": "10.1.1.24", 
+                    "class": "normal", 
+                    "target": "10.1.1.34", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 90
+                    }, 
+                    "source": "10.1.1.11", 
+                    "class": "normal", 
+                    "target": "133.243.238.164", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 4872
+                    }, 
+                    "source": "10.1.1.30", 
+                    "class": "normal", 
+                    "target": "10.1.1.178", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 9911
+                    }, 
+                    "source": "10.1.1.28", 
+                    "class": "normal", 
+                    "target": "10.1.1.139", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 596220
+                    }, 
+                    "source": "10.1.1.139", 
+                    "class": "normal", 
+                    "target": "10.1.1.29", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 264305
+                    }, 
+                    "source": "10.1.1.139", 
+                    "class": "normal", 
+                    "target": "10.1.1.28", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 3736
+                    }, 
+                    "source": "10.1.1.195", 
+                    "class": "normal", 
+                    "target": "10.1.1.36", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 66
+                    }, 
+                    "source": "35.241.23.245", 
+                    "class": "normal", 
+                    "target": "10.1.1.22", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 13671
+                    }, 
+                    "source": "10.1.1.30", 
+                    "class": "normal", 
+                    "target": "10.1.1.139", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 2335
+                    }, 
+                    "source": "10.1.1.2", 
+                    "class": "normal", 
+                    "target": "10.1.1.22", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 13085
+                    }, 
+                    "source": "10.1.1.2", 
+                    "class": "normal", 
+                    "target": "10.1.1.23", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 4769
+                    }, 
+                    "source": "10.1.1.37", 
+                    "class": "normal", 
+                    "target": "10.1.1.28", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 3473
+                    }, 
+                    "source": "10.1.1.24", 
+                    "class": "normal", 
+                    "target": "10.1.1.194", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 439
+                    }, 
+                    "source": "10.1.1.21", 
+                    "class": "normal", 
+                    "target": "10.1.1.36", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 226
+                    }, 
+                    "source": "10.1.1.34", 
+                    "class": "normal", 
+                    "target": "10.1.1.24", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 77158
+                    }, 
+                    "source": "10.1.1.28", 
+                    "class": "normal", 
+                    "target": "10.1.1.30", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 34109
+                    }, 
+                    "source": "10.1.1.11", 
+                    "class": "normal", 
+                    "target": "10.1.1.22", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 239
+                    }, 
+                    "source": "10.1.1.24", 
+                    "class": "normal", 
+                    "target": "10.1.1.2", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 384
+                    }, 
+                    "source": "10.1.1.22", 
+                    "class": "normal", 
+                    "target": "10.1.1.21", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 877
+                    }, 
+                    "source": "10.1.1.22", 
+                    "class": "normal", 
+                    "target": "10.1.1.20", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 66
+                    }, 
+                    "source": "10.1.1.28", 
+                    "class": "normal", 
+                    "target": "10.1.1.37", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 180
+                    }, 
+                    "source": "10.1.1.192", 
+                    "class": "normal", 
+                    "target": "10.1.1.32", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 79654
+                    }, 
+                    "source": "10.1.1.30", 
+                    "class": "normal", 
+                    "target": "10.1.1.28", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 513483
+                    }, 
+                    "source": "10.1.1.30", 
+                    "class": "normal", 
+                    "target": "10.1.1.29", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 360
+                    }, 
+                    "source": "172.21.0.3", 
+                    "class": "normal", 
+                    "target": "10.1.1.2", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 60
+                    }, 
+                    "source": "172.21.0.3", 
+                    "class": "normal", 
+                    "target": "10.1.1.1", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 15309
+                    }, 
+                    "source": "10.1.1.1", 
+                    "class": "normal", 
+                    "target": "10.1.1.23", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 414
+                    }, 
+                    "source": "10.1.1.1", 
+                    "class": "normal", 
+                    "target": "10.1.1.22", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 90
+                    }, 
+                    "source": "133.243.238.164", 
+                    "class": "normal", 
+                    "target": "10.1.1.11", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 26024
+                    }, 
+                    "source": "10.1.1.193", 
+                    "class": "normal", 
+                    "target": "10.1.1.18", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 30680
+                    }, 
+                    "source": "10.1.1.178", 
+                    "class": "normal", 
+                    "target": "10.1.1.30", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 180
+                    }, 
+                    "source": "10.1.1.32", 
+                    "class": "normal", 
+                    "target": "10.1.1.192", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 230
+                    }, 
+                    "source": "10.1.1.36", 
+                    "class": "normal", 
+                    "target": "10.1.1.21", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 50918
+                    }, 
+                    "source": "10.1.1.29", 
+                    "class": "normal", 
+                    "target": "10.1.1.30", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 287293
+                    }, 
+                    "source": "10.1.1.28", 
+                    "class": "normal", 
+                    "target": "10.1.1.29", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 24534
+                    }, 
+                    "source": "10.1.1.192", 
+                    "class": "normal", 
+                    "target": "10.1.1.18", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 330
+                    }, 
+                    "source": "10.1.1.22", 
+                    "class": "normal", 
+                    "target": "10.1.1.2", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 89
+                    }, 
+                    "source": "10.1.1.192", 
+                    "class": "normal", 
+                    "target": "10.1.1.21", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 244
+                    }, 
+                    "source": "10.1.1.195", 
+                    "class": "normal", 
+                    "target": "10.1.1.21", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 390664
+                    }, 
+                    "source": "10.1.1.139", 
+                    "class": "normal", 
+                    "target": "10.1.1.30", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 66
+                    }, 
+                    "source": "10.1.1.22", 
+                    "class": "normal", 
+                    "target": "35.241.23.245", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 473
+                    }, 
+                    "source": "10.1.1.21", 
+                    "class": "normal", 
+                    "target": "10.1.1.22", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 153
+                    }, 
+                    "source": "10.1.1.21", 
+                    "class": "normal", 
+                    "target": "10.1.1.192", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 32309
+                    }, 
+                    "source": "10.1.1.22", 
+                    "class": "normal", 
+                    "target": "10.1.1.11", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 59078
+                    }, 
+                    "source": "10.1.1.178", 
+                    "class": "normal", 
+                    "target": "10.1.1.28", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 24185
+                    }, 
+                    "source": "10.1.1.178", 
+                    "class": "normal", 
+                    "target": "10.1.1.29", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 312
+                    }, 
+                    "source": "10.1.1.21", 
+                    "class": "normal", 
+                    "target": "10.1.1.195", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 5778
+                    }, 
+                    "source": "10.1.1.29", 
+                    "class": "normal", 
+                    "target": "10.1.1.178", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 2761
+                    }, 
+                    "source": "10.1.1.194", 
+                    "class": "normal", 
+                    "target": "10.1.1.24", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 66
+                    }, 
+                    "source": "10.1.1.22", 
+                    "class": "normal", 
+                    "target": "151.101.64.133", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 66
+                    }, 
+                    "source": "151.101.64.133", 
+                    "class": "normal", 
+                    "target": "10.1.1.22", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 211
+                    }, 
+                    "source": "10.1.1.2", 
+                    "class": "normal", 
+                    "target": "10.1.1.24", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 43198
+                    }, 
+                    "source": "10.1.1.18", 
+                    "class": "normal", 
+                    "target": "10.1.1.193", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 42348
+                    }, 
+                    "source": "10.1.1.18", 
+                    "class": "normal", 
+                    "target": "10.1.1.192", 
+                    "notices": []
+                }, 
+                {
+                    "metrics": {
+                        "normal": 18782
+                    }, 
+                    "source": "10.1.1.29", 
+                    "class": "normal", 
+                    "target": "10.1.1.139", 
+                    "notices": []
+                }
+            ], 
+            "nodes": [
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.29", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.28", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.20", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.22", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.28", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.36", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.195", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.24", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.34", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.11", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "133.243.238.164", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.30", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.178", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.139", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.22", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.2", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.23", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.24", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.36", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.21", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.37", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.192", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.32", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.2", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "172.21.0.3", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.1", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.193", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "10.1.1.18", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "35.241.23.245", 
+                    "class": "normal"
+                }, 
+                {
+                    "node_type": "client", 
+                    "renderer": "focusedChild", 
+                    "name": "151.101.64.133", 
+                    "class": "normal"
+                }
+            ], 
+            "displayName": "CODEBLUE network", 
+            "renderer": "region", 
+            "name": "CODEBLUE network"
+        }
+    ], 
+    "renderer": "global", 
+    "name": "CBNOC"
+}

@@ -1,0 +1,73 @@
+{
+  "renderer": "global",
+  "name": "edge",
+  "nodes": [
+    {
+      "renderer": "region",
+      "name": "INTERNET",
+      "displayName": "INTERNET",
+      "nodes": [],
+      "metadata": {},
+      "class": "normal",
+      "connections": []
+    },
+    {
+      "renderer": "region",
+      "name": "3001_mgmt",
+      "displayName": "3001_mgmt",
+      "updated": 1477690448572,
+      "nodes": [
+        {
+          "name": "rtDC",
+          "node_type": "service",
+          "class": "warning",
+          "renderer": "focusedChild",
+                    "metadata": {
+            "streaming": 1
+          },
+          "notices": ["10.1.1.1"],  
+          "nodes": [],
+          "connections": []
+        },
+        {
+            "name": "rtGlobal",
+            "node_type": "service",
+            "class": "normal",
+            "renderer": "focusedChild",
+                      "metadata": {
+              "streaming": 1
+            },
+            "notices": ["10.1.1.2"],  
+            "nodes": [],
+            "connections": []
+          }
+        ],
+       "connections": [
+        {
+            "source": "rtDC",
+            "target": "rtGlobal",
+            "metrics": {
+              "normal": 26037.626,
+              "danger": 92.37
+            },
+            "notices": [
+            ],
+            "class": "normal"
+          }
+       ]
+        }
+  ],
+  "connections": [
+    {
+      "source": "3001_mgmt",
+      "target": "INTERNET",
+      "metrics": {
+        "normal": 26037.626,
+        "danger": 92.37
+      },
+      "notices": [
+      ],
+      "class": "normal"
+    }
+  ]
+}

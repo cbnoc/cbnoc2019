@@ -1,0 +1,7 @@
+[root@cbnoc-vizceral backup]# ps aux| grep tcpdump
+tcpdump    775  0.5  0.2  30328  8088 ?        R    10月29 285:01 tcpdump -w /root/pcap/test.pcap -G 600 -ni any
+root     24213  0.0  0.0 112732   972 pts/0    S+   18:05   0:00 grep --color=auto tcpdump
+[root@cbnoc-vizceral backup]# ps aux| grep viz
+root       927  0.0  0.0 973128     0 ?        Sl   10月29   0:00 node /root/vizceral-example/node_modules/.bin/npm-run-all clean --parallel copy:* dev-server
+root      1117  0.0  2.2 1464228 87424 ?       Sl   10月29   0:39 node /root/vizceral-example/node_modules/.bin/webpack-dev-server --host=0.0.0.0 --content-base dist/ --history-api-fallback --color
+root     24226  0.0  0.0 112728   968 pts/0    R+   18:05   0:00 grep --color=auto vi
