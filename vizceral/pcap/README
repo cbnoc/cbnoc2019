@@ -1,0 +1,39 @@
+##
+# 処理の流れ
+##
+
+1. pcap.sh: tcpdumpによるパケットの収集(10分ごとにファイル分割)
+
+2. pcap2json.py: pcapファイルをもとにvizceral用のjsonファイルを生成(cron)
+
+3. (2)で生成されたjsonファイルをvizceralが可視化
+
+##
+# ファイル一覧
+##
+
+- cbnoc_node.json* :IPアドレスからホストの変換を(2)で行っているみたい
+
+cbnoc_node.json
+cbnoc_node.json.bk
+cbnoc_node.json.bk.bk
+
+- cron.conf : cronの設定値
+
+- pcap.sh : pcapをtcpdumpで収集
+
+- pcap2json*.py : pcapファイルからjsonファイルを生成
+
+pcap2json.py
+pcap2json_mgmt.py
+
+- scapy-master : scapyのソース
+
+- test.json : pcap2json.pyで生成されるjsonのサンプル
+
+- test*.pcap : pcap.shで収集されるpcapファイル
+
+test.pcap
+test2.pcap
+
+- test.py : 特に使われていなさそう

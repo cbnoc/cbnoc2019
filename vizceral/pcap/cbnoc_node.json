@@ -1,0 +1,16 @@
+{
+    "renderer": "global",
+    "name": "CBNOC",
+    "nodes": [
+        {
+            "renderer": "region",
+            "name": "INTERNET",
+            "displayName": "CBNOC",
+            "nodes": [],
+            "metadata": {},
+            "class": "normal",
+            "connections": []
+        }
+    ],
+    "connections": []
+}
