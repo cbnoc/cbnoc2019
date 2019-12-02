@@ -1,0 +1,6 @@
+#alert ip 192.168.0.0/16 any <> any any (sid:1000000; msg:"UNASSIGNED:192.168.0.0/16"; rev:2; classtype:misc-activity;)
+#alert ip 172.16.0.0/12 any <> any any (sid:1000001; msg:"UNASSIGNED:172.16.0.0/12"; rev:2; classtype:misc-activity;)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (sid:1000002; msg:"MALWARE:X-CODE-GHOST-1"; rev:2; classtype:trojan-activity; content:"init.crash-analytics.com";)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (sid:1000003; msg:"MALWARE:X-CODE-GHOST-2"; rev:2; classtype:trojan-activity; content:"init.icloud-diagnostics.com";)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (sid:1000004; msg:"MALWARE:X-CODE-GHOST-3"; rev:2; classtype:trojan-activity; content:"init.icloud-analysis.com";)
+alert tcp any any -> any 80 (msg:"web detection test"; content:"DETECTION-TEST";nocase; sid:1000000;)
